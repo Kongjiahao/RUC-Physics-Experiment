@@ -10,6 +10,7 @@
 \usepackage{color}
 \usepackage{appendix}
 \usepackage{lipsum}
+\usepackage{physics}
 \usepackage{fancyhdr}
 \usepackage{background}
 \setcounter{MaxMatrixCols}{10}
@@ -19,7 +20,7 @@
 \backgroundsetup{scale=1, angle=0, opacity = 0.1,
 contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{background.pdf}}}
 
-
+%页眉页脚设置
 \setlength{\headheight}{29.46504pt}
 \fancyhead[L]{} %%留空则不显示
 \fancyhead[C]{\includegraphics[width=0.2\linewidth]{Renmin_Univ_Logo.eps}} %%留空则不显示
@@ -34,17 +35,20 @@ contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectra
     \centering
     \includegraphics[width=0.6\linewidth]{Renmin_Univ_Logo.eps}
 \end{figure}
-\title{\LARGE 物理实验报告}
-\author{\large 孔嘉豪}
-\thanks{本次实验的指导老师为：}
-\affiliation{中国人民大学物理学系2022200682}
-\date{\today }
+\title{\LARGE 物理实验报告}%实验题目
+\author{\large 陈小赫}%姓名
+\thanks{本次实验的指导老师为：谭小云}%指导老师
+\affiliation{中国人民大学物理学系2022200XXX}%学号
+\date{2024年2月30日}%实验日期
 \begin{abstract}
+    %这里是你的摘要，对实验主要内容进行简明扼要的介绍，包括研究目的、方法、结果和结论，通常在100-300字之间。
+    %\lipsum用以生成随机文本，实际使用时删除即可
 \lipsum[1]
 \end{abstract}
 \maketitle
 \textbf{\large I 引言：}\vspace{0.3cm}
 
+%引言
 \lipsum
 
 \vspace{0.3cm}\textbf{\large II. 方法：}\vspace{0.3cm}
