@@ -1,0 +1,114 @@
+\documentclass[aps,twocolumn,prl,amsmath,amssymb,floatfix,superscriptaddress]{revtex4-1}
+\usepackage[UTF8]{ctex}
+\usepackage[english]{babel}
+%\usepackage{authblk}
+\usepackage{latexsym,amsmath,amssymb}
+%\usepackage{natbib}
+\usepackage{fancyhdr}
+\usepackage{background}
+\usepackage{graphicx}
+\usepackage{esint}
+\usepackage{braket}
+\usepackage{multirow}
+\usepackage{dcolumn}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{xcolor}
+%\usepackage{physics}
+\usepackage{siunitx}
+\usepackage{bm}% bold math
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\linenumbers\relax % Commence numbering lines
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks   = true, %Colours links instead of ugly boxes
+  urlcolor     = blue, %Colour for external hyperlinks
+  linkcolor    = blue, %Colour of internal links
+  citecolor   = red %Colour of citations
+}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{lipsum}
+\lstdefinestyle{Python}{
+    language        =   Python, % 语言选Python
+    basicstyle      =   \zihao{-5}\ttfamily,
+    numberstyle     =   \zihao{-5}\ttfamily,
+    keywordstyle    =   \color{purple},
+    keywordstyle    =   [2] \color{teal},
+    stringstyle     =   \color{orange},
+    commentstyle    =   \color{teal}\ttfamily,
+    breaklines      =   true,   % 自动换行，建议不要写太长的行
+    columns         =   fixed,  % 如果不加这一句，字间距就不固定，很丑，必须加
+    basewidth       =   0.5em,
+}
+
+
+
+\backgroundsetup{scale=1, angle=0, opacity = 0.1,
+contents = {\includegraphics[width=\paperwidth, height=\paperwidth, keepaspectratio]{background.pdf}}}
+
+
+\setlength{\headheight}{29.46504pt}
+\fancyhead[L]{} %%留空则不显示
+\fancyhead[C]{\includegraphics[width=0.2\linewidth]{Renmin_Univ_Logo.eps}} %%留空则不显示
+\fancyhead[R]{物理实验报告} %%留空则不显示
+\fancyfoot[L]{}
+\fancyfoot[R]{中国人民大学物理实验中心\ \ }
+\fancyfoot[C]{ \thepage }
+\pagestyle{fancy}
+
+
+\newcommand{\iu}{\mathrm{i}\mkern1mu}
+\DeclareSIUnit\gauss{Gs}
+
+\begin{document}
+\title{\LARGE 预习报告}
+\author{孔嘉豪\ 2022200682}
+\thanks{本次实验的指导老师为：}
+\affiliation{中国人民大学物理学系}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\linewidth]{Renmin_Univ_Logo.eps}
+\end{figure}
+\maketitle
+\onecolumngrid
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{实验背景}
+\lipsum[1]
+\section{实验原理}
+\lipsum
+\section{实验步骤}
+\lipsum
+
+\section{数据记录}
+\lipsum
+
+
+\begin{thebibliography}{10}
+   \bibitem{note}中国人民大学物理实验教学中心，普通物理实验讲义。
+\end{thebibliography}
+\end{document}
+%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
